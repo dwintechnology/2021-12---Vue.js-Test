@@ -1,0 +1,20 @@
+export default {
+  name: 'fabric-static-canvas',
+  props: {
+    allowTouchScrolling: Boolean,
+    backgroundColor: String,
+    backgroundVpt: { type: Boolean, default: true },
+    controlsAboveOverlay: Boolean,
+    enableRetinaScaling: { type: Boolean, default: true },
+    FX_DURATION: { type: Number, default: 500 },
+    imageSmoothingEnabled: { type: Boolean, default: true },
+    includeDefaultValues: { type: Boolean, default: true },
+    overlayColor: String,
+    overlayVpt: { type: Boolean, default: true },
+    renderOnAddRemove: { type: Boolean, default: true },
+    skipOffscreen: { type: Boolean, default: true },
+    stateful: { type: Boolean, default: true },
+    svgViewportTransformation: { type: Boolean, default: true },
+    viewportTransform: Array,
+  },
+};
